@@ -3,12 +3,12 @@
 
 [Brief Introduction - Remove this afterwards]
 
-I am an intelligence development officer who, through using OSINT in their day-to-day work, has developed a lasting interest in cybersecurity and thus has led me on the journey to develop these skills within the TryHackMe platform as well as seek industry recognised certifications such as CompTIA A+, Network+ and Security+ +. 
+I am currently an intelligence development officer working for a UK regulator who, through using OSINT in their day-to-day work, developed a lasting interest in cybersecurity and thus has led me on the journey to develop these skills within the TryHackMe platform as well as seek industry recognised certifications such as CompTIA A+, Network+ and Security+ +. 
 
 ## Objective
 [Provide Objective - Remove this afterwards]]
 
-My journey within OSINT, intelligence development and investigating cybercrime has led me to develop a passion for cybersecurity. I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
+I have always had an interest in IT, not just in the practicalities of using the equipment, but also the how and why it works. This interest developed early in my life and stayed with me throughout my professional career, always being the office "IT Guy", eagerly volunteering to learn new systems and equipment. Constantly learning and constantly finding new challenges to overcome. My journey towards finding a career within Cyber Security culminated within my OSINT learning, my intelligence development career and investigating crimes which had a cyber element to them. I am now eager to transition into this field, specifically aiming to join a Security Operations Centre (SOC) as a Tier 1 Analyst.
 
 ## Skills
 [Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
