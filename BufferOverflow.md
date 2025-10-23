@@ -13,17 +13,13 @@ layout: default
 ---
 
 ## Table of contents
-- [Overview](#overview)
-- [Objectives](#objectives)
-- [Environment & tools](#environment--tools)
-- [Exploit configuration (example)](#exploit-configuration-example)
-- [Attack execution & verification](#attack-execution--verification)
-- [Post-exploitation actions](#post-exploitation-actions)
-- [Observations & findings](#observations--findings)
-- [Skills demonstrated](#skills-demonstrated)
-- [Future enhancements & next steps](#future-enhancements--next-steps)
-- [Repository suggestions (what to include)](#repository-suggestions-what-to-include)
-- [Usage instructions & safety](#usage-instructions--safety)
+- Overview
+- Objectives
+- Environment & tools
+- Exploit configuration (example)
+- Attack execution & verification
+- Post-exploitation & Persistence
+- Critical Reflections
   
 
 ---
