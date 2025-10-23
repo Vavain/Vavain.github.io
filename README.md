@@ -1,12 +1,17 @@
+---
+layout: default
+---
+
+
+
+[Link to another page](./another-page.html).
+
 # Hello, I'm Michael Bruce
 <a href="https://linkedin.com/in/michaelbruce90/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
-[Brief Introduction - Remove this afterwards]
-
-I am currently an intelligence development officer working for a UK regulator who, through using OSINT in their day-to-day work, developed a lasting interest in cybersecurity and thus has led me on the journey to develop these skills within the TryHackMe platform as well as seek industry recognised certifications such as CompTIA A+, Network+ and Security+ +. 
+I am currently an intelligence development officer working for a UK regulator who, through using OSINT in their day-to-day work, developed a lasting interest in cybersecurity and thus has led me on the journey to develop these skills within the TryHackMe platform as well as seek industry-recognised certifications such as CompTIA A+, Network+ and Security+ +. 
 
 ## Objective
-[Provide Objective - Remove this afterwards]]
 
 I have always had an interest in IT, not just in the practicalities of using the equipment, but also the how and why it works. This interest developed early in my life and stayed with me throughout my professional career, always being the office "IT Guy", eagerly volunteering to learn new systems and equipment. Constantly learning and constantly finding new challenges to overcome. My journey towards finding a career within Cyber Security culminated within my OSINT learning, my intelligence development career and investigating crimes which had a cyber element to them. I am now eager to transition into this field, specifically aiming to join a Security Operations Centre (SOC) as a Tier 1 Analyst.
 
@@ -23,13 +28,16 @@ I have always had an interest in IT, not just in the practicalities of using the
 | Scripting and Automation for Threat Mitigation | SOC Automation Lab|
 
 ## Tools
-[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
 
 ### Network
 <div>
     <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
     <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" />
     <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Honeypot_Valhalla-8B0000?&style=for-the-badge&logo=firefoxbrowser&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Nmap-CC0000?&style=for-the-badge&logo=nmap&logoColor=white" />
+
+
 </div>
 
 ### Endpoint
@@ -45,16 +53,25 @@ I have always had an interest in IT, not just in the practicalities of using the
     <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
 </div>
 
+### Offensive
+<div>
+    <img src="https://img.shields.io/badge/-Burp_Suite-FF6633?&style=for-the-badge&logo=burpsuite&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Metasploit-0277BD?&style=for-the-badge&logo=metasploit&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Hydra-6C0BA9?&style=for-the-badge&logo=hydra&logoColor=white" />
+
+
+
+</div>
+
 ## Certifications
 [Provide certifications that you have obtained. Use ChatGPT to help create the link - Remove this afterwards]]
 <div>
 <img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
 <img src="https://img.shields.io/badge/-Network%2B-007ACC?&style=for-the-badge&logo=CompTIA&logoColor=white" />
 <img src="https://img.shields.io/badge/-A%2B-4D4D4D?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-CDSA-006400?&style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/-CCD-000080?&style=for-the-badge&logoColor=white" />
 </div>
 
 ## Projects
 - Detection Lab
+- [Basic Honeypot Deployment](https://github.com/Vavain/Vavain.github.io/blob/main/BasicHoneyPotDeployment.md)
 - SOC Automation Project
