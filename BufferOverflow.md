@@ -13,15 +13,14 @@ layout: default
 ---
 
 ## Table of contents
-- Overview
-- Objectives
-- Environment & tools
-- Exploit configuration (example)
-- Attack execution & verification
-- Post-exploitation & Persistence
-- Critical Reflections
+- [Overview](#-overview)
+- [Objectives](#-objectives)
+- [Environment & tools](#-Environment-&-tools)
+- [Exploit configuration (example)](Exploit_configuration)
+- [Attack execution & verification](Attack-execution-&-verification)
+- [Post-exploitation & Persistence](Post-exploitation-&-Persistence)
+- [Critical Reflections](Critical_Reflections)
   
-
 ---
 
 ## Overview
