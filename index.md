@@ -77,4 +77,4 @@ I have always had an interest in IT, not just in the practicalities of using the
 - Detection Lab
 - [Basic Honeypot Deployment](https://github.com/Vavain/Vavain.github.io/blob/main/BasicHoneyPotDeployment.md)
 - SOC Automation Project
-- [Buffer Overflow Project](https://github.com/Vavain/Vavain.github.io/blob/main/BufferOverflow.md)
+- [Buffer Overflow Project](./BufferOverflow.html)
