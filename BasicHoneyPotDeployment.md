@@ -172,7 +172,6 @@ Enabled the following to simulate a realistic target:
 - Optional: Kali Linux VM or physical system for testing
 
 ### Deployment
-```powershell
 # Example steps
 1. Install Valhalla Honeypot
 2. Enable web server and create wwwroot
