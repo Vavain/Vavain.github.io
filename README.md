@@ -75,6 +75,8 @@ I have always had an interest in IT, not just in the practicalities of using the
 
 ## Projects
 - Detection Lab
-- [Basic Honeypot Deployment](https://github.com/Vavain/Vavain.github.io/blob/main/BasicHoneyPotDeployment.md)
+- [Basic Honeypot Deployment](./BasicHoneyPotDeployment.html)
 - SOC Automation Project
-- [Buffer Overflow Project](https://github.com/Vavain/Vavain.github.io/blob/main/BufferOverflow.md)
+- [Buffer Overflow Project](./BufferOverflow.html)
+- [SolarWinds Orion Supply Chain Attack — Malware & DLL Reverse Engineering Analysis](./SolarWindsOrionSupplyChainAttack.html).
+- [Pwnmobile Android Device Exploitation Lab — msfvenom & Meterpreter](./Pwnmobile.html)
