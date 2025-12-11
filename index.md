@@ -13,7 +13,7 @@ I am currently an intelligence development officer working for a UK regulator wh
 
 ## Objective
 
-I have always had an interest in IT, not just in the practicalities of using the equipment, but also the how and why it works. This interest developed early in my life and stayed with me throughout my professional career, always being the office "IT Guy", eagerly volunteering to learn new systems and equipment. Constantly learning and constantly finding new challenges to overcome. My journey towards finding a career within Cyber Security culminated within my OSINT learning, my intelligence development career and investigating crimes which had a cyber element to them. I am now eager to transition into this field and bring my career experiences as well as these newly aquired cyber related skills with me.
+I have always had an interest in IT, not just in the practicalities of using the equipment, but also in how and why it works. This interest developed early in my life and stayed with me throughout my professional career, always being the office "IT Guy", eagerly volunteering to learn new systems and equipment. Constantly learning and constantly finding new challenges to overcome. My journey towards finding a career within Cyber Security culminated within my OSINT learning, my intelligence development career and investigating crimes which had a cyber element to them. I am now eager to transition into this field and bring my career experiences as well as these newly acquired cyber-related skills with me.
 
 ## Skills
 
@@ -44,7 +44,11 @@ I have always had an interest in IT, not just in the practicalities of using the
 <div>
     <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
     <img src="https://img.shields.io/badge/-Velociraptor-4B275F?&style=for-the-badge&logo=Velociraptor&logoColor=white" />
+
+    
 </div>
+
+
 
 ### SIEM
 
@@ -52,8 +56,11 @@ I have always had an interest in IT, not just in the practicalities of using the
     <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
     <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
     <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
+
+    
     
 </div>
+
 
 ### Offensive
 
@@ -71,7 +78,11 @@ I have always had an interest in IT, not just in the practicalities of using the
 <img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
 <img src="https://img.shields.io/badge/-Network%2B-007ACC?&style=for-the-badge&logo=CompTIA&logoColor=white" />
 <img src="https://img.shields.io/badge/-A%2B-4D4D4D?&style=for-the-badge&logo=CompTIA&logoColor=white" />
+
+    
 </div>
+
+
 
 ## Projects
 - Detection Lab
