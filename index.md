@@ -78,3 +78,4 @@ I have always had an interest in IT, not just in the practicalities of using the
 - [Basic Honeypot Deployment](./BasicHoneyPotDeployment.html)
 - SOC Automation Project
 - [Buffer Overflow Project](./BufferOverflow.html)
+- [SolarWinds Orion Supply Chain Attack — Malware & DLL Reverse Engineering Analysis](./SolarWindsOrionSupplyChainAttack.html).
