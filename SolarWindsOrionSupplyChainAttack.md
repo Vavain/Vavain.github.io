@@ -91,10 +91,19 @@ SolarWinds.Orion.Core.BusinessLayer
 The malware stores **hashed registry key names**.  
 It hashes victim registry values and **compares them to this internal list** to know which security features to disable.
 
+<img width="1205" height="876" alt="image" src="https://github.com/user-attachments/assets/d646164d-11d0-47e7-8fbd-bd143a00f11a" />
+
+
+
 ---
 
 ### 🔹 Code Search: `gethash`
 Searching for `"gethash"` reveals the **custom hashing algorithm** used to compare system attributes and determine target readiness (anti-analysis, security settings).
+
+
+<img width="1207" height="888" alt="image" src="https://github.com/user-attachments/assets/31503acf-9fdc-43fa-bb6e-e5588c461538" />
+
+
 
 ---
 
@@ -115,6 +124,13 @@ Using a deflate decompression tool reveals **active reconnaissance logic**, incl
 
 This is **environment mapping**, used to profile the victim.
 
+<img width="1557" height="873" alt="image" src="https://github.com/user-attachments/assets/ac5fdea5-067c-4b97-88b9-6a1524504413" />
+
+
+<img width="1359" height="644" alt="image" src="https://github.com/user-attachments/assets/b369b0d2-13c1-4fc8-8120-c5aea77050b4" />
+
+
+
 ---
 
 ### 🔹 Line 451 — OS Information Query
@@ -122,7 +138,15 @@ Compressed string decodes to reconnaissance targeting:
 
 - Operating system version  
 - Build number  
-- Environment variables  
+- Environment variables
+
+<img width="1588" height="960" alt="image" src="https://github.com/user-attachments/assets/943e98c3-cfeb-488d-b7ba-4a073e5078c7" />
+
+
+<img width="1374" height="673" alt="image" src="https://github.com/user-attachments/assets/3508bf96-277b-49f3-9a22-9e3d86a2f858" />
+
+
+
 
 ---
 
@@ -134,13 +158,23 @@ Example decoded value:
 - `"17291806236368054941UL"` — hash of the malware host executable:  
   `solarwinds.businesslayerhost.exe`
 
+
 - `288, 366` → The number of hours to remain dormant (~12 to 14 days)
+
+<img width="1602" height="1003" alt="image" src="https://github.com/user-attachments/assets/f2f3da2f-8cc3-4755-a774-0f0ace270e41" />
 
 ---
 
 ### 🔹 Registry Permission Hijacking  
-- **Lines 1132–1158** – Takes **ownership** of registry keys  
-- **Lines 1170–1191** – Modifies **permissions** to disable or tamper with system protections  
+- **Lines 1132–1158** – Takes **ownership** of registry keys
+
+<img width="1596" height="1013" alt="image" src="https://github.com/user-attachments/assets/589be436-a993-4f6c-afcb-0e28ff0c347e" />
+
+
+- **Lines 1170–1191** – Modifies **permissions** to disable or tamper with system protections
+
+<img width="1755" height="1378" alt="image" src="https://github.com/user-attachments/assets/0f0e12d8-af3f-401f-a84c-187a7b5a69a8" />
+
 
 ---
 
@@ -150,7 +184,10 @@ Targets various:
 
 - AV products  
 - EDR solutions  
-- Security configurations  
+- Security configurations
+
+<img width="1745" height="1327" alt="image" src="https://github.com/user-attachments/assets/7d3a4fd5-c90e-41ec-a878-45d8d687f859" />
+
 
 ---
 
@@ -158,7 +195,10 @@ Targets various:
 - Contacts C2 via `avsvmcloud[.]com`  
 - Sends victim profiling data  
 - Receives **encoded command block**  
-- Decodes and executes instructions from attackers  
+- Decodes and executes instructions from attackers
+
+<img width="1742" height="1199" alt="image" src="https://github.com/user-attachments/assets/779f4566-f6b5-49a0-ab6c-f3be9ac76f86" />
+
 
 ---
 
@@ -170,7 +210,10 @@ Decoded commands indicate capabilities including:
 - Process interaction  
 - Disabling system services  
 - Exfiltration preparation  
-- C2 re-tasking  
+- C2 re-tasking
+
+<img width="1750" height="1340" alt="image" src="https://github.com/user-attachments/assets/9d4d0573-6a4a-4865-b168-db7de5aa86a5" />
+
 
 ---
 
@@ -184,58 +227,6 @@ Decoded commands indicate capabilities including:
 - Knowledge of C2 infrastructure and evasion behaviour  
 - CVE analysis and threat-actor attribution  
 - Registry and OS-level defensive bypass understanding  
-
----
-
-## 🚀 Future Enhancements & Additional Write-Ups
-
-To elevate this project further, consider adding:
-
-### 🧪 **Dynamic Analysis Lab (Behavioural Testing)**
-- Execute the DLL in a sandbox (e.g., **FlareVM**, **REMnux**, **Cuckoo**)  
-- Capture:
-  - Network traffic (PCAP)  
-  - Registry modifications  
-  - File system changes  
-  - Process creation events  
-
-### 📊 **Malware Mapping**
-- Create a **MITRE ATT&CK technique map**, showing each observed behaviour  
-- Include:
-  - T1027 (Obfuscation)  
-  - T1059 (Execution)  
-  - T1562 (Defence Evasion)  
-  - T1041 (C2 Exfiltration)
-
-### 🔐 **YARA Rules**
-Write and include a custom **YARA detection rule** for the malicious DLL based on unique strings or hashes.
-
-### 🛰️ **DNS Sinkhole Analysis**
-- Visualise C2 traffic  
-- Explain the industry kill-switch  
-- Show how defenders monitor callbacks  
-
-### 📝 **Incident Response Report**
-Create a professional IR report summarising:
-- Indicators of compromise (IoCs)  
-- Timeline of intrusion  
-- Recommended mitigations  
-- Lessons learned  
-
-### 🛡️ **Blue Team Countermeasures**
-Add defensive recommendations such as:
-
-- Blocking C2 domains  
-- Endpoint monitoring for DLL tampering  
-- Registry/key permission monitoring  
-- Supply-chain verification procedures  
-- Memory scanning for compressed strings  
-
-### ⚙️ **Automation Scripts**
-Add small scripts for:
-- Extracting compressed strings  
-- Hash detection tests  
-- IOC extraction  
 
 ---
 
