@@ -86,8 +86,8 @@ I have always had an interest in IT, not just in the practicalities of using the
 
 ## Projects
 - Detection Lab
-- [Basic Honeypot Deployment](./BasicHoneyPotDeployment.html)
+- [Basic Honeypot Deployment](./BasicHoneyPotDeployment.html).
 - SOC Automation Project
-- [Buffer Overflow Project](./BufferOverflow.html)
+- [Buffer Overflow Project](./BufferOverflow.html).
 - [SolarWinds Orion Supply Chain Attack — Malware & DLL Reverse Engineering Analysis](./SolarWindsOrionSupplyChainAttack.html).
-- [Pwnmobile Android Device Exploitation Lab — msfvenom & Meterpreter](./PwnMobile.html)
+- [Pwnmobile Android Device Exploitation Lab — msfvenom & Meterpreter](./PwnMobile.html).
