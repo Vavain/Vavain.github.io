@@ -38,9 +38,6 @@ BlueStacks served as a safe, fully-contained test device.
 
 ---
 
-## 📸 Screenshot Placeholders (Insert Your Own Images)
-
-
 ### 🖼️ 1. msfvenom APK Creation  & Metaspolit Hanlder Setup
 <img width="1047" height="705" alt="image" src="https://github.com/user-attachments/assets/3df88dbd-9819-4a1d-8fa9-ec13827f536f" />
 
